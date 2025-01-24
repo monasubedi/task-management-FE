@@ -1,0 +1,12 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.selectContainer select {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: var(--grey-secondary);
+  width: 100%;
+}

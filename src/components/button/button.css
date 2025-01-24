@@ -1,0 +1,20 @@
+.buttonContainer {
+  margin-top: 10px;
+  width: 100%;
+}
+.button {
+  cursor: pointer;
+  background-color: var(--primary);
+  padding: 10px;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 2px;
+  transition: 0.2s;
+  width: 100%;
+  color: var(--white);
+}
+.button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
